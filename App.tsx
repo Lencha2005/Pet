@@ -1,3 +1,4 @@
+import 'react-native-gesture-handler';
 import React, {useEffect} from 'react';
 import {DevSettings, NativeModules, SafeAreaView} from 'react-native';
 import RootNavigation from './src/navigation';
