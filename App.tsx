@@ -12,9 +12,8 @@ function App(): React.JSX.Element {
         NativeModules.DevSettings.setIsDebuggingRemotely(false);
       });
     }
-    console.log('info', {age: 25, array: [1, 2, 3, 4, {name: 'artur'}]});
-    fetch('https://google.com');
   }, []);
+
   return (
     <SafeAreaView style={{flex: 1}}>
       <RootNavigation />

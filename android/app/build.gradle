@@ -1,6 +1,7 @@
 apply plugin: "com.android.application"
 apply plugin: "org.jetbrains.kotlin.android"
 apply plugin: "com.facebook.react"
+apply plugin: 'com.google.gms.google-services'
 
 /**
  * This is the configuration block to customize your React Native Android app.
@@ -67,6 +68,7 @@ def enableProguardInReleaseBuilds = false
  * give correct results when using with locales other than en-US. Note that
  * this variant is about 6MiB larger per architecture than default.
  */
+
 def jscFlavor = 'org.webkit:android-jsc:+'
 
 android {
