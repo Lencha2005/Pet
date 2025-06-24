@@ -13,6 +13,8 @@ import FavoriteIcon from '../../../assets/icons/FavoriteIcon';
 import {fonts} from '../../../constants/fonts';
 
 export default function PetsList({pets}: {pets: IPets[]}) {
+  console.log('PetsList: ', pets);
+
   return (
     <View style={styles.flex}>
       <FlatList
