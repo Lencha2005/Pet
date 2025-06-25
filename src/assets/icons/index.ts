@@ -10,6 +10,8 @@ import SettingsIcon from './SettingsIcon';
 import FemailIcon from './FemailIcon';
 import MailAndFemailIcon from './MailAndFemailIcon';
 import MailIcon from './Mail';
+import PlaceIcon from './PlaceIcon';
+import LongArrowIcon from './LongArrorIcon';
 
 export {
   ViewPassIcon,
@@ -24,4 +26,6 @@ export {
   FemailIcon,
   MailAndFemailIcon,
   MailIcon,
+  LongArrowIcon,
+  PlaceIcon,
 };

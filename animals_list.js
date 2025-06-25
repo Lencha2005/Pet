@@ -10,9 +10,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Poodle Toy, known for its Mixed coat. At 1 years old, Dog 1 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/affenpinscher/n02110627_5743.jpg',
-      'https://images.dog.ceo/breeds/affenpinscher/n02110627_8250.jpg',
-      'https://images.dog.ceo/breeds/african/n02116738_10493.jpg',
+      'https://images.dog.ceo/breeds/terrier-australian/n02096294_568.jpg',
+      'https://images.dog.ceo/breeds/dhole/n02115913_4031.jpg',
+      'https://images.dog.ceo/breeds/maltese/n02085936_3292.jpg',
     ],
     name: 'Max',
     size: 'medium',
@@ -29,8 +29,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Retriever Flatcoated, known for its Mixed coat. At 2 years old, Dog 2 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/affenpinscher/n02110627_5743.jpg',
-      'https://images.dog.ceo/breeds/affenpinscher/n02110627_8250.jpg',
+      'https://images.dog.ceo/breeds/dhole/n02115913_4031.jpg',
+      'https://images.dog.ceo/breeds/maltese/n02085936_3292.jpg',
+      'https://images.dog.ceo/breeds/pitbull/IMG_20190826_121528_876.jpg',
     ],
     name: 'Bella',
     size: 'big',
@@ -47,8 +48,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Papillon, known for its Mixed coat. At 3 years old, Dog 3 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/african/n02116738_10493.jpg',
-      'https://images.dog.ceo/breeds/african/n02116738_8719.jpg',
+      'https://images.dog.ceo/breeds/maltese/n02085936_3292.jpg',
+      'https://images.dog.ceo/breeds/pitbull/IMG_20190826_121528_876.jpg',
+      'https://images.dog.ceo/breeds/kelpie/n02105412_2301.jpg',
     ],
     name: 'Charlie',
     size: 'small',
@@ -65,8 +67,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Mastiff English, known for its Mixed coat. At 4 years old, Dog 4 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/airedale/n02096051_4514.jpg',
-      'https://images.dog.ceo/breeds/airedale/n02096051_9319.jpg',
+      'https://images.dog.ceo/breeds/pitbull/IMG_20190826_121528_876.jpg',
+      'https://images.dog.ceo/breeds/kelpie/n02105412_2301.jpg',
+      'https://images.dog.ceo/breeds/sharpei/noel.jpg',
     ],
     name: 'Luna',
     size: 'medium',
@@ -83,9 +86,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Komondor, known for its Mixed coat. At 5 years old, Dog 5 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713.jpg',
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713_1.jpg',
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713_2.jpg',
+      'https://images.dog.ceo/breeds/kelpie/n02105412_2301.jpg',
+      'https://images.dog.ceo/breeds/sharpei/noel.jpg',
+      'https://images.dog.ceo/breeds/mastiff-tibetan/n02108551_3980.jpg',
     ],
     name: 'Cooper',
     size: 'big',
@@ -102,9 +105,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Poodle Toy, known for its Mixed coat. At 6 years old, Dog 6 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589.jpg',
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589_1.jpg',
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589_2.jpg',
+      'https://images.dog.ceo/breeds/sharpei/noel.jpg',
+      'https://images.dog.ceo/breeds/mastiff-tibetan/n02108551_3980.jpg',
+      'https://images.dog.ceo/breeds/terrier-tibetan/n02097474_3461.jpg',
     ],
     name: 'Lucy',
     size: 'small',
@@ -121,9 +124,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Retriever Flatcoated, known for its Mixed coat. At 7 years old, Dog 7 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768.jpg',
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768_1.jpg',
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768_2.jpg',
+      'https://images.dog.ceo/breeds/mastiff-tibetan/n02108551_3980.jpg',
+      'https://images.dog.ceo/breeds/terrier-tibetan/n02097474_3461.jpg',
+      'https://images.dog.ceo/breeds/finnish-lapphund/mochilamvan.jpg',
     ],
     name: 'Buddy',
     size: 'medium',
@@ -140,9 +143,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Papillon, known for its Mixed coat. At 8 years old, Dog 8 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769.jpg',
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769_1.jpg',
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769_2.jpg',
+      'https://images.dog.ceo/breeds/terrier-tibetan/n02097474_3461.jpg',
+      'https://images.dog.ceo/breeds/finnish-lapphund/mochilamvan.jpg',
+      'https://images.dog.ceo/breeds/terrier-toy/n02087046_2152.jpg',
     ],
     name: 'Daisy',
     size: 'big',
@@ -159,9 +162,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Mastiff English, known for its Mixed coat. At 9 years old, Dog 9 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/akita/Akita_Dog.jpg',
-      'https://images.dog.ceo/breeds/akita/Akita_hiking_in_Shpella_e_Pellumbasit.jpg',
-      'https://images.dog.ceo/breeds/akita/Japaneseakita.jpg',
+      'https://images.dog.ceo/breeds/finnish-lapphund/mochilamvan.jpg',
+      'https://images.dog.ceo/breeds/terrier-toy/n02087046_2152.jpg',
+      'https://images.dog.ceo/breeds/schnauzer-giant/n02097130_888.jpg',
     ],
     name: 'Rocky',
     size: 'small',
@@ -178,9 +181,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Komondor, known for its Mixed coat. At 10 years old, Dog 10 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713.jpg',
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713_1.jpg',
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713_2.jpg',
+      'https://images.dog.ceo/breeds/terrier-toy/n02087046_2152.jpg',
+      'https://images.dog.ceo/breeds/schnauzer-giant/n02097130_888.jpg',
+      'https://images.dog.ceo/breeds/hound-plott/hhh_plott002.jpg',
     ],
     name: 'Molly',
     size: 'medium',
@@ -197,9 +200,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Poodle Toy, known for its Mixed coat. At 1 years old, Dog 11 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589.jpg',
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589_1.jpg',
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589_2.jpg',
+      'https://images.dog.ceo/breeds/schnauzer-giant/n02097130_888.jpg',
+      'https://images.dog.ceo/breeds/hound-plott/hhh_plott002.jpg',
+      'https://images.dog.ceo/breeds/sheepdog-english/n02105641_3364.jpg',
     ],
     name: 'Bear',
     size: 'big',
@@ -216,9 +219,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Retriever Flatcoated, known for its Mixed coat. At 2 years old, Dog 12 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768.jpg',
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768_1.jpg',
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768_2.jpg',
+      'https://images.dog.ceo/breeds/hound-plott/hhh_plott002.jpg',
+      'https://images.dog.ceo/breeds/sheepdog-english/n02105641_3364.jpg',
+      'https://images.dog.ceo/breeds/komondor/n02105505_4458.jpg',
     ],
     name: 'Sadie',
     size: 'small',
@@ -235,9 +238,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Papillon, known for its Mixed coat. At 3 years old, Dog 13 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769.jpg',
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769_1.jpg',
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769_2.jpg',
+      'https://images.dog.ceo/breeds/sheepdog-english/n02105641_3364.jpg',
+      'https://images.dog.ceo/breeds/komondor/n02105505_4458.jpg',
+      'https://images.dog.ceo/breeds/whippet/n02091134_17638.jpg',
     ],
     name: 'Tucker',
     size: 'medium',
@@ -254,9 +257,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Mastiff English, known for its Mixed coat. At 4 years old, Dog 14 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/mastiff-english/1.jpg',
-      'https://images.dog.ceo/breeds/mastiff-english/1_1.jpg',
-      'https://images.dog.ceo/breeds/mastiff-english/1_2.jpg',
+      'https://images.dog.ceo/breeds/komondor/n02105505_4458.jpg',
+      'https://images.dog.ceo/breeds/whippet/n02091134_17638.jpg',
+      'https://images.dog.ceo/breeds/hound-blood/n02088466_8904.jpg',
     ],
     name: 'Maggie',
     size: 'big',
@@ -273,12 +276,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Komondor, known for its Mixed coat. At 5 years old, Dog 15 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_2244.jpg',
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_2508.jpg',
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_3061.jpg',
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589.jpg',
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_6684.jpg',
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_7986.jpg',
+      'https://images.dog.ceo/breeds/whippet/n02091134_17638.jpg',
+      'https://images.dog.ceo/breeds/hound-blood/n02088466_8904.jpg',
+      'https://images.dog.ceo/breeds/schnauzer-giant/n02097130_1531.jpg',
     ],
     name: 'Oliver',
     size: 'small',
@@ -295,9 +295,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Poodle Toy, known for its Mixed coat. At 6 years old, Dog 16 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589.jpg',
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589_1.jpg',
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589_2.jpg',
+      'https://images.dog.ceo/breeds/hound-blood/n02088466_8904.jpg',
+      'https://images.dog.ceo/breeds/schnauzer-giant/n02097130_1531.jpg',
+      'https://images.dog.ceo/breeds/terrier-silky/n02097658_329.jpg',
     ],
     name: 'Sophie',
     size: 'medium',
@@ -314,9 +314,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Retriever Flatcoated, known for its Mixed coat. At 7 years old, Dog 17 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768.jpg',
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768_1.jpg',
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768_2.jpg',
+      'https://images.dog.ceo/breeds/schnauzer-giant/n02097130_1531.jpg',
+      'https://images.dog.ceo/breeds/terrier-silky/n02097658_329.jpg',
+      'https://images.dog.ceo/breeds/sheepdog-english/n02105641_7603.jpg',
     ],
     name: 'Duke',
     size: 'big',
@@ -333,9 +333,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Papillon, known for its Mixed coat. At 8 years old, Dog 18 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769.jpg',
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769_1.jpg',
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769_2.jpg',
+      'https://images.dog.ceo/breeds/terrier-silky/n02097658_329.jpg',
+      'https://images.dog.ceo/breeds/sheepdog-english/n02105641_7603.jpg',
+      'https://images.dog.ceo/breeds/terrier-russell/jack2.jpg',
     ],
     name: 'Chloe',
     size: 'small',
@@ -352,9 +352,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Mastiff English, known for its Mixed coat. At 9 years old, Dog 19 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/mastiff-english/1.jpg',
-      'https://images.dog.ceo/breeds/mastiff-english/1_1.jpg',
-      'https://images.dog.ceo/breeds/mastiff-english/1_2.jpg',
+      'https://images.dog.ceo/breeds/sheepdog-english/n02105641_7603.jpg',
+      'https://images.dog.ceo/breeds/terrier-russell/jack2.jpg',
+      'https://images.dog.ceo/breeds/terrier-dandie/n02096437_832.jpg',
     ],
     name: 'Riley',
     size: 'medium',
@@ -371,9 +371,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Komondor, known for its Mixed coat. At 10 years old, Dog 20 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713.jpg',
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713_1.jpg',
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713_2.jpg',
+      'https://images.dog.ceo/breeds/terrier-russell/jack2.jpg',
+      'https://images.dog.ceo/breeds/terrier-dandie/n02096437_832.jpg',
+      'https://images.dog.ceo/breeds/poodle-standard/n02113799_2068.jpg',
     ],
     name: 'Bailey',
     size: 'big',
@@ -390,9 +390,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Poodle Toy, known for its Mixed coat. At 1 years old, Dog 21 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589.jpg',
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589_1.jpg',
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589_2.jpg',
+      'https://images.dog.ceo/breeds/terrier-dandie/n02096437_832.jpg',
+      'https://images.dog.ceo/breeds/poodle-standard/n02113799_2068.jpg',
+      'https://images.dog.ceo/breeds/spaniel-irish/n02102973_645.jpg',
     ],
     name: 'Toby',
     size: 'small',
@@ -409,9 +409,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Retriever Flatcoated, known for its Mixed coat. At 2 years old, Dog 22 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768.jpg',
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768_1.jpg',
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768_2.jpg',
+      'https://images.dog.ceo/breeds/poodle-standard/n02113799_2068.jpg',
+      'https://images.dog.ceo/breeds/spaniel-irish/n02102973_645.jpg',
+      'https://images.dog.ceo/breeds/greyhound-italian/n02091032_102.jpg',
     ],
     name: 'Lola',
     size: 'medium',
@@ -428,9 +428,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Papillon, known for its Mixed coat. At 3 years old, Dog 23 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769.jpg',
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769_1.jpg',
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769_2.jpg',
+      'https://images.dog.ceo/breeds/spaniel-irish/n02102973_645.jpg',
+      'https://images.dog.ceo/breeds/greyhound-italian/n02091032_102.jpg',
+      'https://images.dog.ceo/breeds/terrier-irish/n02093991_89.jpg',
     ],
     name: 'Jack',
     size: 'big',
@@ -447,9 +447,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Mastiff English, known for its Mixed coat. At 4 years old, Dog 24 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/mastiff-english/1.jpg',
-      'https://images.dog.ceo/breeds/mastiff-english/1_1.jpg',
-      'https://images.dog.ceo/breeds/mastiff-english/1_2.jpg',
+      'https://images.dog.ceo/breeds/greyhound-italian/n02091032_102.jpg',
+      'https://images.dog.ceo/breeds/terrier-irish/n02093991_89.jpg',
+      'https://images.dog.ceo/breeds/spaniel-blenheim/n02086646_371.jpg',
     ],
     name: 'Stella',
     size: 'small',
@@ -466,9 +466,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Komondor, known for its Mixed coat. At 5 years old, Dog 25 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713.jpg',
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713_1.jpg',
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713_2.jpg',
+      'https://images.dog.ceo/breeds/terrier-irish/n02093991_89.jpg',
+      'https://images.dog.ceo/breeds/spaniel-blenheim/n02086646_371.jpg',
+      'https://images.dog.ceo/breeds/labradoodle/lola.jpg',
     ],
     name: 'Finn',
     size: 'medium',
@@ -485,9 +485,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Poodle Toy, known for its Mixed coat. At 6 years old, Dog 26 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589.jpg',
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589_1.jpg',
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589_2.jpg',
+      'https://images.dog.ceo/breeds/spaniel-blenheim/n02086646_371.jpg',
+      'https://images.dog.ceo/breeds/labradoodle/lola.jpg',
+      'https://images.dog.ceo/breeds/kelpie/n02105412_715.jpg',
     ],
     name: 'Zoe',
     size: 'big',
@@ -504,9 +504,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Retriever Flatcoated, known for its Mixed coat. At 7 years old, Dog 27 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768.jpg',
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768_1.jpg',
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768_2.jpg',
+      'https://images.dog.ceo/breeds/labradoodle/lola.jpg',
+      'https://images.dog.ceo/breeds/kelpie/n02105412_715.jpg',
+      'https://images.dog.ceo/breeds/shihtzu/n02086240_8812.jpg',
     ],
     name: 'Murphy',
     size: 'small',
@@ -523,10 +523,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Papillon, known for its Mixed coat. At 8 years old, Dog 28 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/borzoi/n02090622_1391.jpg',
-      'https://images.dog.ceo/breeds/borzoi/n02090622_2055.jpg',
-      'https://images.dog.ceo/breeds/borzoi/n02090622_6293.jpg',
-      'https://images.dog.ceo/breeds/borzoi/n02090622_6449.jpg',
+      'https://images.dog.ceo/breeds/kelpie/n02105412_715.jpg',
+      'https://images.dog.ceo/breeds/shihtzu/n02086240_8812.jpg',
+      'https://images.dog.ceo/breeds/hound-blood/n02088466_12353.jpg',
     ],
     name: 'Lily',
     size: 'medium',
@@ -543,10 +542,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Mastiff English, known for its Mixed coat. At 9 years old, Dog 29 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/terrier-yorkshire/20200319_143121.jpg',
-      'https://images.dog.ceo/breeds/terrier-yorkshire/n02094433_10126.jpg',
-      'https://images.dog.ceo/breeds/terrier-yorkshire/n02094433_2114.jpg',
-      'https://images.dog.ceo/breeds/terrier-yorkshire/n02094433_9739.jpg',
+      'https://images.dog.ceo/breeds/shihtzu/n02086240_8812.jpg',
+      'https://images.dog.ceo/breeds/hound-blood/n02088466_12353.jpg',
+      'https://images.dog.ceo/breeds/puggle/IMG_095543.jpg',
     ],
     name: 'Leo',
     size: 'big',
@@ -563,9 +561,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Komondor, known for its Mixed coat. At 10 years old, Dog 30 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713.jpg',
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713_1.jpg',
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713_2.jpg',
+      'https://images.dog.ceo/breeds/hound-blood/n02088466_12353.jpg',
+      'https://images.dog.ceo/breeds/puggle/IMG_095543.jpg',
+      'https://images.dog.ceo/breeds/komondor/n02105505_1360.jpg',
     ],
     name: 'Ellie',
     size: 'small',
@@ -582,9 +580,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Poodle Toy, known for its Mixed coat. At 1 years old, Dog 31 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589.jpg',
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589_1.jpg',
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589_2.jpg',
+      'https://images.dog.ceo/breeds/puggle/IMG_095543.jpg',
+      'https://images.dog.ceo/breeds/komondor/n02105505_1360.jpg',
+      'https://images.dog.ceo/breeds/frise-bichon/7.jpg',
     ],
     name: 'Gus',
     size: 'medium',
@@ -601,9 +599,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Retriever Flatcoated, known for its Mixed coat. At 2 years old, Dog 32 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768.jpg',
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768_1.jpg',
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768_2.jpg',
+      'https://images.dog.ceo/breeds/komondor/n02105505_1360.jpg',
+      'https://images.dog.ceo/breeds/frise-bichon/7.jpg',
+      'https://images.dog.ceo/breeds/terrier-patterdale/patterdale-terrier-1330018870tnN.jpg',
     ],
     name: 'Nala',
     size: 'big',
@@ -620,9 +618,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Papillon, known for its Mixed coat. At 3 years old, Dog 33 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769.jpg',
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769_1.jpg',
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769_2.jpg',
+      'https://images.dog.ceo/breeds/frise-bichon/7.jpg',
+      'https://images.dog.ceo/breeds/terrier-patterdale/patterdale-terrier-1330018870tnN.jpg',
+      'https://images.dog.ceo/breeds/saluki/n02091831_3222.jpg',
     ],
     name: 'Hank',
     size: 'small',
@@ -639,9 +637,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Mastiff English, known for its Mixed coat. At 4 years old, Dog 34 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/mastiff-english/1.jpg',
-      'https://images.dog.ceo/breeds/mastiff-english/1_1.jpg',
-      'https://images.dog.ceo/breeds/mastiff-english/1_2.jpg',
+      'https://images.dog.ceo/breeds/terrier-patterdale/patterdale-terrier-1330018870tnN.jpg',
+      'https://images.dog.ceo/breeds/saluki/n02091831_3222.jpg',
+      'https://images.dog.ceo/breeds/terrier-wheaten/n02098105_2639.jpg',
     ],
     name: 'Penny',
     size: 'medium',
@@ -658,9 +656,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Komondor, known for its Mixed coat. At 5 years old, Dog 35 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713.jpg',
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713_1.jpg',
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713_2.jpg',
+      'https://images.dog.ceo/breeds/saluki/n02091831_3222.jpg',
+      'https://images.dog.ceo/breeds/terrier-wheaten/n02098105_2639.jpg',
+      'https://images.dog.ceo/breeds/sheepdog-english/n02105641_2750.jpg',
     ],
     name: 'Milo',
     size: 'big',
@@ -677,9 +675,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Poodle Toy, known for its Mixed coat. At 6 years old, Dog 36 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589.jpg',
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589_1.jpg',
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589_2.jpg',
+      'https://images.dog.ceo/breeds/terrier-wheaten/n02098105_2639.jpg',
+      'https://images.dog.ceo/breeds/sheepdog-english/n02105641_2750.jpg',
+      'https://images.dog.ceo/breeds/poodle-miniature/n02113712_171.jpg',
     ],
     name: 'Ruby',
     size: 'small',
@@ -696,9 +694,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Retriever Flatcoated, known for its Mixed coat. At 7 years old, Dog 37 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768.jpg',
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768_1.jpg',
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768_2.jpg',
+      'https://images.dog.ceo/breeds/sheepdog-english/n02105641_2750.jpg',
+      'https://images.dog.ceo/breeds/poodle-miniature/n02113712_171.jpg',
+      'https://images.dog.ceo/breeds/shihtzu/n02086240_5536.jpg',
     ],
     name: 'Zeus',
     size: 'medium',
@@ -715,9 +713,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Papillon, known for its Mixed coat. At 8 years old, Dog 38 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769.jpg',
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769_1.jpg',
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769_2.jpg',
+      'https://images.dog.ceo/breeds/poodle-miniature/n02113712_171.jpg',
+      'https://images.dog.ceo/breeds/shihtzu/n02086240_5536.jpg',
+      'https://images.dog.ceo/breeds/terrier-toy/n02087046_4401.jpg',
     ],
     name: 'Rosie',
     size: 'big',
@@ -734,9 +732,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Mastiff English, known for its Mixed coat. At 9 years old, Dog 39 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/mastiff-english/1.jpg',
-      'https://images.dog.ceo/breeds/mastiff-english/1_1.jpg',
-      'https://images.dog.ceo/breeds/mastiff-english/1_2.jpg',
+      'https://images.dog.ceo/breeds/shihtzu/n02086240_5536.jpg',
+      'https://images.dog.ceo/breeds/terrier-toy/n02087046_4401.jpg',
+      'https://images.dog.ceo/breeds/spaniel-brittany/n02101388_2021.jpg',
     ],
     name: 'Louie',
     size: 'small',
@@ -753,9 +751,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Komondor, known for its Mixed coat. At 10 years old, Dog 40 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713.jpg',
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713_1.jpg',
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713_2.jpg',
+      'https://images.dog.ceo/breeds/terrier-toy/n02087046_4401.jpg',
+      'https://images.dog.ceo/breeds/spaniel-brittany/n02101388_2021.jpg',
+      'https://images.dog.ceo/breeds/chihuahua/n02085620_13151.jpg',
     ],
     name: 'Mia',
     size: 'medium',
@@ -772,9 +770,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Poodle Toy, known for its Mixed coat. At 1 years old, Dog 41 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589.jpg',
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589_1.jpg',
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589_2.jpg',
+      'https://images.dog.ceo/breeds/spaniel-brittany/n02101388_2021.jpg',
+      'https://images.dog.ceo/breeds/chihuahua/n02085620_13151.jpg',
+      'https://images.dog.ceo/breeds/corgi-cardigan/n02113186_11400.jpg',
     ],
     name: 'Jasper',
     size: 'big',
@@ -791,9 +789,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Retriever Flatcoated, known for its Mixed coat. At 2 years old, Dog 42 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768.jpg',
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768_1.jpg',
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768_2.jpg',
+      'https://images.dog.ceo/breeds/chihuahua/n02085620_13151.jpg',
+      'https://images.dog.ceo/breeds/corgi-cardigan/n02113186_11400.jpg',
+      'https://images.dog.ceo/breeds/malamute/n02110063_6746.jpg',
     ],
     name: 'Roxy',
     size: 'small',
@@ -810,9 +808,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Papillon, known for its Mixed coat. At 3 years old, Dog 43 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769.jpg',
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769_1.jpg',
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769_2.jpg',
+      'https://images.dog.ceo/breeds/corgi-cardigan/n02113186_11400.jpg',
+      'https://images.dog.ceo/breeds/malamute/n02110063_6746.jpg',
+      'https://images.dog.ceo/breeds/cattledog-australian/IMG_2432.jpg',
     ],
     name: 'Oscar',
     size: 'medium',
@@ -829,9 +827,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Mastiff English, known for its Mixed coat. At 4 years old, Dog 44 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/mastiff-english/1.jpg',
-      'https://images.dog.ceo/breeds/mastiff-english/1_1.jpg',
-      'https://images.dog.ceo/breeds/mastiff-english/1_2.jpg',
+      'https://images.dog.ceo/breeds/malamute/n02110063_6746.jpg',
+      'https://images.dog.ceo/breeds/cattledog-australian/IMG_2432.jpg',
+      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3490.jpg',
     ],
     name: 'Gracie',
     size: 'big',
@@ -848,9 +846,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Komondor, known for its Mixed coat. At 5 years old, Dog 45 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713.jpg',
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713_1.jpg',
-      'https://images.dog.ceo/breeds/komondor/n02105505_3713_2.jpg',
+      'https://images.dog.ceo/breeds/cattledog-australian/IMG_2432.jpg',
+      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3490.jpg',
+      'https://images.dog.ceo/breeds/groenendael/n02105056_3348.jpg',
     ],
     name: 'Winston',
     size: 'small',
@@ -867,9 +865,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Poodle Toy, known for its Mixed coat. At 6 years old, Dog 46 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589.jpg',
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589_1.jpg',
-      'https://images.dog.ceo/breeds/poodle-toy/n02113624_4589_2.jpg',
+      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3490.jpg',
+      'https://images.dog.ceo/breeds/groenendael/n02105056_3348.jpg',
+      'https://images.dog.ceo/breeds/poodle-medium/PXL_20210220_100624962.jpg',
     ],
     name: 'Coco',
     size: 'medium',
@@ -886,9 +884,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Retriever Flatcoated, known for its Mixed coat. At 7 years old, Dog 47 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768.jpg',
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768_1.jpg',
-      'https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3768_2.jpg',
+      'https://images.dog.ceo/breeds/groenendael/n02105056_3348.jpg',
+      'https://images.dog.ceo/breeds/poodle-medium/PXL_20210220_100624962.jpg',
+      'https://images.dog.ceo/breeds/spaniel-irish/n02102973_3933.jpg',
     ],
     name: 'Sammy',
     size: 'big',
@@ -905,9 +903,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Papillon, known for its Mixed coat. At 8 years old, Dog 48 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769.jpg',
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769_1.jpg',
-      'https://images.dog.ceo/breeds/papillon/n02086910_3769_2.jpg',
+      'https://images.dog.ceo/breeds/poodle-medium/PXL_20210220_100624962.jpg',
+      'https://images.dog.ceo/breeds/spaniel-irish/n02102973_3933.jpg',
+      'https://images.dog.ceo/breeds/mexicanhairless/n02113978_3092.jpg',
     ],
     name: 'Lulu',
     size: 'small',
@@ -924,11 +922,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Mastiff English, known for its Mixed coat. At 9 years old, Dog 49 is vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/springer-english/n02102040_1983.jpg',
-      'https://images.dog.ceo/breeds/springer-english/n02102040_2481.jpg',
-      'https://images.dog.ceo/breeds/springer-english/n02102040_3335.jpg',
-      'https://images.dog.ceo/breeds/springer-english/n02102040_3693.jpg',
-      'https://images.dog.ceo/breeds/springer-english/n02102040_3974.jpg',
+      'https://images.dog.ceo/breeds/spaniel-irish/n02102973_3933.jpg',
+      'https://images.dog.ceo/breeds/mexicanhairless/n02113978_3092.jpg',
+      'https://images.dog.ceo/breeds/spaniel-irish/n02102973_3405.jpg',
     ],
     name: 'Teddy',
     size: 'medium',
@@ -945,8 +941,9 @@ export const animals = [
     description:
       'This is a beautiful example of a Komondor, known for its Mixed coat. At 10 years old, Dog 50 is not vaccinated and loves to play in Ukraine.',
     images: [
-      'https://images.dog.ceo/breeds/basenji/n02110806_4302.jpg',
-      'https://images.dog.ceo/breeds/basenji/n02110806_4488.jpg',
+      'https://images.dog.ceo/breeds/mexicanhairless/n02113978_3092.jpg',
+      'https://images.dog.ceo/breeds/spaniel-irish/n02102973_3405.jpg',
+      'https://images.dog.ceo/breeds/poodle-medium/WhatsApp_Image_2022-08-06_at_4.48.38_PM.jpg',
     ],
     name: 'Piper',
     size: 'big',

@@ -35,11 +35,23 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
   const route = useRoute<RouteProp<{params: {settings: ISettings}}>>();
 
+  const getPets = async () => {
+    try {
+      setIsLoading(true);
+      const q = query(collection(db, 'animals'), orderBy('timeStamp', 'desc'));
+      const result = await getDocs(q);
+      const temp: IPets[] = result.docs.map(e => e.data()) as IPets[];
+      setPets(temp);
+    } catch (e) {
+      console.log('e', e);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   const handleSearchWithSettings = async (settings: ISettings) => {
     try {
       setIsLoading(true);
-      console.log('🔍 Отримані фільтри:', settings);
-
       const constraints: QueryConstraint[] = [];
 
       if (settings.sex !== 'all') {
@@ -60,7 +72,6 @@ export default function Home() {
       const q = query(collection(db, 'animals'), ...constraints);
       const result = await getDocs(q);
       const temp: IPets[] = result.docs.map(doc => doc.data() as IPets);
-      console.log('📦 Отримані тварини:', temp);
       setPets(temp);
     } catch (e) {
       console.log('❌ Search error:', e);
@@ -86,9 +97,11 @@ export default function Home() {
   };
 
   useEffect(() => {
-    if (route?.params?.settings) {
-      console.log('⚙️ Змінилися settings:', route.params?.settings);
-      handleSearchWithSettings(route.params.settings);
+    const settings = route?.params?.settings;
+    if (settings) {
+      handleSearchWithSettings(settings);
+    } else {
+      getPets();
     }
   }, [route]);
 

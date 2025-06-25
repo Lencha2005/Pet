@@ -11,10 +11,16 @@ import {IPets} from '..';
 import {FlatList} from 'react-native-gesture-handler';
 import FavoriteIcon from '../../../assets/icons/FavoriteIcon';
 import {fonts} from '../../../constants/fonts';
+import {useNavigation} from '@react-navigation/native';
+import {StackNavigationProp} from '@react-navigation/stack';
+import {LoggedInStackType} from '../../../navigation/types';
+import {ScreenNames} from '../../../constants/screenNames';
 
 export default function PetsList({pets}: {pets: IPets[]}) {
-  console.log('PetsList: ', pets);
-
+  const navigation = useNavigation<StackNavigationProp<LoggedInStackType>>();
+  const handleGoToPet = (item: IPets) => {
+    navigation.navigate(ScreenNames.PET_PAGE, {pet: item});
+  };
   return (
     <View style={styles.flex}>
       <FlatList
@@ -23,7 +29,9 @@ export default function PetsList({pets}: {pets: IPets[]}) {
         numColumns={2}
         renderItem={({item}) => {
           return (
-            <TouchableOpacity style={styles.item}>
+            <TouchableOpacity
+              style={styles.item}
+              onPress={() => handleGoToPet(item)}>
               <ImageBackground
                 source={{uri: item.images[0]}}
                 imageStyle={{borderRadius: 20}}
