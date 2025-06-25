@@ -14,6 +14,7 @@ interface IInput {
   additionalContainerStyle?: ViewStyle;
   additionInputStyle?: ViewStyle;
   onFocus?: () => void;
+  numberOfLines?: number;
 }
 export default function Input({
   onBlur,
@@ -25,6 +26,7 @@ export default function Input({
   secureTextEntry = false,
   additionalContainerStyle,
   additionInputStyle,
+  numberOfLines = 1,
   onFocus,
 }: IInput) {
   const [isPassHidden, setIsPassHidden] = useState(secureTextEntry);
@@ -39,6 +41,7 @@ export default function Input({
           onBlur={onBlur}
           onFocus={onFocus}
           value={value}
+          numberOfLines={numberOfLines}
           onChangeText={text => onChangeText(text)}
           secureTextEntry={isPassHidden}
         />

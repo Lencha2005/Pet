@@ -13,7 +13,10 @@ import MailIcon from './Mail';
 import PlaceIcon from './PlaceIcon';
 import LongArrowIcon from './LongArrorIcon';
 
+const DogImage = require('../icons/png/dogIcon.png');
+
 export {
+  DogImage,
   ViewPassIcon,
   HidePassIcon,
   PawIcon,
