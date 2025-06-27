@@ -1,6 +1,7 @@
 #import "AppDelegate.h"
 
 #import <React/RCTBundleURLProvider.h>
+#import "RNSplashScreen.h"
 
 @implementation AppDelegate
 
@@ -12,7 +13,9 @@
   self.initialProps = @{};
   [FIRApp configure];
 
-  return [super application:application didFinishLaunchingWithOptions:launchOptions];
+  bool didfinish= [super application:application didFinishLaunchingWithOptions:launchOptions];
+  [RNSplashScreen show];
+  return didfinish;
 }
 
 - (NSURL *)sourceURLForBridge:(RCTBridge *)bridge

@@ -63,7 +63,7 @@ export default function PetsList({pets}: {pets: IPets[]}) {
       // AsyncStorage.clear();
     }, []),
   );
-  console.log('favorites: ', favorite);
+
   return (
     <View style={styles.flex}>
       <FlatList
