@@ -26,6 +26,7 @@ import Input from '../../common/components/Input';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import FavoriteIcon from '../../assets/icons/FavoriteIcon';
 import {handleAddToFavorite} from '../Home/components/PetsList';
+import {useTranslation} from 'react-i18next';
 
 interface IFormInfo {
   name: string;
@@ -37,7 +38,7 @@ interface IFormInfo {
 export default function PetPage() {
   const route = useRoute<RouteProp<{params: {pet: IPets}}>>();
   const navigation = useNavigation<StackNavigationProp<LoggedInStackType>>();
-
+  const {t} = useTranslation('main');
   const [favorite, setFavorite] = useState<IPets[]>([]);
   const [sliderIndex, setSliderIndex] = useState<number>(0);
   const [formInfo, setFormInfo] = useState<IFormInfo>({
@@ -155,12 +156,12 @@ export default function PetPage() {
           </View>
           <View style={{gap: 10, marginHorizontal: 10}}>
             <Text style={[styles.titleText, {fontSize: 18}]}>
-              Характеристики:
+              {t('character')}
             </Text>
             <View style={styles.characterContainer}>
               <View style={styles.characterWrapper}>
                 <Text style={styles.characterText}>
-                  {route?.params?.pet.age} років
+                  {route?.params?.pet.age} {t('years')}
                 </Text>
               </View>
               <View style={styles.characterWrapper}>
@@ -181,14 +182,16 @@ export default function PetPage() {
               <View style={styles.characterWrapper}>
                 <Text style={styles.characterText}>
                   {route?.params?.pet.isVaccinated
-                    ? 'Вакцінований'
-                    : 'Не вакцинований'}
+                    ? t('vaccinated')
+                    : t('noVaccinated')}
                 </Text>
               </View>
             </View>
           </View>
           <View style={{margin: 10, gap: 10}}>
-            <Text style={[styles.titleText, {fontSize: 18}]}>Моя історія:</Text>
+            <Text style={[styles.titleText, {fontSize: 18}]}>
+              {t('myHistory')}
+            </Text>
             <View>
               <Text style={styles.characterText}>
                 {route?.params?.pet.description}
@@ -202,7 +205,7 @@ export default function PetPage() {
                 isVisible: true,
               }));
             }}
-            text={"Подарувати сім'ю"}
+            text={t('giveFamily')}
           />
         </View>
       </View>

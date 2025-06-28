@@ -4,18 +4,19 @@ import {HeartIcon, PawIcon} from '../../assets/icons';
 import {ScreenNames} from '../../constants/screenNames';
 import {fonts} from '../../constants/fonts';
 import {BottomTabNavigationOptions} from '@react-navigation/bottom-tabs';
+import i18n from '../../../i18.config';
 
 const getName = (name: string) => {
   switch (name) {
-    case ScreenNames.FAVORATE_PAGE:
-      return 'Улюблені';
+    case ScreenNames.FAVORITE_PAGE:
+      return i18n.t('favorite');
     case ScreenNames.HOME_PAGE:
-      return 'Пухнастики';
+      return i18n.t('fluffies');
   }
 };
 const getIcon = (name: string, focused: boolean) => {
   switch (name) {
-    case ScreenNames.FAVORATE_PAGE:
+    case ScreenNames.FAVORITE_PAGE:
       return <HeartIcon isFocused={focused} color={'#0B0B0B'} />;
     case ScreenNames.HOME_PAGE:
       return <PawIcon isFocused={focused} color={'#0B0B0B'} />;

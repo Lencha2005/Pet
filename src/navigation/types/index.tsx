@@ -10,6 +10,7 @@ export type DrawerStackType = {
 };
 export type LoggedInStackType = {
   DRAWER_STACK: undefined;
+  LANGUAGES_PAGE: undefined;
   PET_PAGE: {
     pet: IPets;
   };

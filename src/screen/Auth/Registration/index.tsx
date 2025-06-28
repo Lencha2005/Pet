@@ -12,6 +12,7 @@ import {CommonActions, useNavigation} from '@react-navigation/native';
 import {StackNavigationProp} from '@react-navigation/stack';
 import {RootStackNavigation} from '../../../navigation/types';
 import {ScreenNames} from '../../../constants/screenNames';
+import {useTranslation} from 'react-i18next';
 
 interface ITouched {
   email: boolean;
@@ -32,6 +33,7 @@ export default function Registration() {
   });
 
   const navigation = useNavigation<StackNavigationProp<RootStackNavigation>>();
+  const {t} = useTranslation('main');
 
   const registrateUser = async (
     email: string,
@@ -137,7 +139,7 @@ export default function Registration() {
                 !values.confirmPassword
               }
               onPress={handleSubmit}
-              text={'Зарееструватись'}
+              text={t('register')}
             />
           </>
         )}

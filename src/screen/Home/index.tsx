@@ -15,6 +15,7 @@ import {
   endAt,
 } from 'firebase/firestore';
 import {db} from '../../firebase';
+import {useTranslation} from 'react-i18next';
 
 export interface IPets {
   age: number;
@@ -34,6 +35,7 @@ export default function Home() {
   const [pets, setPets] = useState<IPets[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const route = useRoute<RouteProp<{params: {settings: ISettings}}>>();
+  const {t} = useTranslation('main');
 
   const getPets = async () => {
     try {
@@ -114,9 +116,7 @@ export default function Home() {
         <PetsList pets={pets} />
       ) : (
         <View style={{alignItems: 'center', marginTop: 20}}>
-          <Text style={{color: 'gray', fontSize: 16}}>
-            Нічого не знайдено. Спробуйте змінити фільтри.
-          </Text>
+          <Text style={{color: 'gray', fontSize: 16}}>{t('noFound')}</Text>
         </View>
       )}
     </View>

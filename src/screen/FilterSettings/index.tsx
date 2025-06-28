@@ -18,6 +18,7 @@ import {useNavigation} from '@react-navigation/core';
 import {StackNavigationProp} from '@react-navigation/stack';
 import {TabBarStackType} from '../../navigation/types';
 import {ScreenNames} from '../../constants/screenNames';
+import {useTranslation} from 'react-i18next';
 
 export interface ISettings {
   timeStamp: boolean;
@@ -29,6 +30,8 @@ export interface ISettings {
 }
 export default function FilterSettings() {
   const navigation = useNavigation<StackNavigationProp<TabBarStackType>>();
+  const {t} = useTranslation('main');
+
   const [settings, setSettings] = useState<ISettings>({
     timeStamp: false,
     isDog: true,
@@ -73,38 +76,36 @@ export default function FilterSettings() {
           <View style={styles.activeSortByTime}>
             {settings.timeStamp && <View style={styles.checkedSortByTime} />}
           </View>
-          <Text style={styles.sortByTimeText}>
-            Сортувати за датою додавання
-          </Text>
+          <Text style={styles.sortByTimeText}>{t('sortByTimeText')}</Text>
         </TouchableOpacity>
         <SwitchBtn
           handleSwitch={handleSwitchAnimal}
           active={settings.isDog}
           items={[
-            {text: 'Собаки', id: true},
-            {text: 'Коти', id: false},
+            {text: t('dogs'), id: true},
+            {text: t('cats'), id: false},
           ]}
         />
         <SwitchBtn
           handleSwitch={handleSwitchSex}
           active={settings.sex}
           items={[
-            {text: 'Хлопець', icon: <MailIcon />, id: 'male'},
-            {text: 'Дівчина', icon: <FemailIcon />, id: 'female'},
-            {text: 'Будь-хто', icon: <MailAndFemailIcon />, id: 'all'},
+            {text: t('male'), icon: <MailIcon />, id: 'male'},
+            {text: t('female'), icon: <FemailIcon />, id: 'female'},
+            {text: t('all'), icon: <MailAndFemailIcon />, id: 'all'},
           ]}
         />
         <SwitchBtn
           handleSwitch={handleSwitchSize}
           active={settings.size}
           items={[
-            {text: 'Маленькі', id: 'small'},
-            {text: 'Середні', id: 'medium'},
-            {text: 'Великі', id: 'big'},
+            {text: t('small'), id: 'small'},
+            {text: t('medium'), id: 'medium'},
+            {text: t('big'), id: 'big'},
           ]}
         />
         <View style={{gap: 5}}>
-          <Text style={styles.btnText}>Вік,роки</Text>
+          <Text style={styles.btnText}>{t('age')}</Text>
           <View style={styles.searchWrapper}>
             <View style={styles.searchIconWrapper}>
               <SearchIcon />
@@ -124,7 +125,7 @@ export default function FilterSettings() {
         </View>
 
         <View style={styles.switcherContainer}>
-          <Text style={styles.btnText}>Вакцінація</Text>
+          <Text style={styles.btnText}>{t('vaccination')}</Text>
           <TouchableOpacity
             style={[
               styles.switcherBtn,
@@ -151,7 +152,7 @@ export default function FilterSettings() {
               },
             });
           }}
-          text={'Показати варіанти'}
+          text={t('variants')}
         />
       </View>
     </ScrollView>

@@ -10,6 +10,7 @@ import {CommonActions, useNavigation} from '@react-navigation/native';
 import {StackNavigationProp} from '@react-navigation/stack';
 import {RootStackNavigation} from '../../../navigation/types';
 import {ScreenNames} from '../../../constants/screenNames';
+import {useTranslation} from 'react-i18next';
 
 interface IInputValue {
   email: string;
@@ -26,6 +27,7 @@ export default function LoginPage() {
     errorPassword: null,
   });
   const navigation = useNavigation<StackNavigationProp<RootStackNavigation>>();
+  const {t} = useTranslation('main');
 
   const handleChangeInput = (
     key: 'email' | 'password' | 'errorEmail' | 'errorPassword',
@@ -100,7 +102,7 @@ export default function LoginPage() {
           onLogin(inputValues.email, inputValues.password);
         }}
         disabled={isDisabledLoginBtn}
-        text={'Увійти'}
+        text={t('logIn')}
       />
     </AuthLayout>
   );
