@@ -15,13 +15,17 @@ export default function DrawerContent() {
     navigation.navigate(ScreenNames.LANGUAGES_PAGE);
     navigation.dispatch(DrawerActions.toggleDrawer());
   };
+  const navigateToWebPage = () => {
+    navigation.navigate(ScreenNames.WEB_PAGE);
+    navigation.dispatch(DrawerActions.toggleDrawer());
+  };
   const {t} = useTranslation('main');
 
   return (
     <View>
       <Header isOpenDrawer={true} />
       <View style={styles.mainWrapper}>
-        <TouchableOpacity style={styles.btnWrapper}>
+        <TouchableOpacity style={styles.btnWrapper} onPress={navigateToWebPage}>
           <Text style={styles.text}>{t('site')}</Text>
           <ArrowIcon />
         </TouchableOpacity>
